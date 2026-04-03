@@ -28,4 +28,8 @@ Thumbs.db
 .env
 .env.local
 
+# Archives
+*.tar.gz
+*.zip
+
 docs/

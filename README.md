@@ -1,5 +1,11 @@
 # fx-inject-shim
 
+[![npm version](https://img.shields.io/npm/v/fx-inject-shim)](https://www.npmjs.com/package/fx-inject-shim)
+[![npm downloads](https://img.shields.io/npm/dm/fx-inject-shim)](https://www.npmjs.com/package/fx-inject-shim)
+[![license](https://img.shields.io/npm/l/fx-inject-shim)](LICENSE)
+[![Firefox 152](https://img.shields.io/badge/Firefox%20152-compatible-orange?logo=firefox)]()
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V01X2WY5)
+
 A drop-in Firefox WebExtension compatibility shim for `tabs.executeScript`, `tabs.insertCSS`, `tabs.removeCSS`, `scripting.executeScript`, `scripting.insertCSS`, and `scripting.removeCSS`.
 
 ---

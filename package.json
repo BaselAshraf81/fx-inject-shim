@@ -33,6 +33,13 @@
     "firefox-152"
   ],
   "license": "MIT",
+  "author": "BaselAshraf81",
+  "homepage": "https://github.com/BaselAshraf81/fx-inject-shim",
+  "bugs": "https://github.com/BaselAshraf81/fx-inject-shim/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BaselAshraf81/fx-inject-shim.git"
+  },
   "devDependencies": {
     "jest":   "^29.7.0",
     "terser": "^5.31.0"
