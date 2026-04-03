@@ -9,8 +9,10 @@
     "./shim": "./src/shim.js"
   },
   "files": [
-    "src/",
-    "dist/"
+  "src/",
+  "dist/",
+  "README.md",
+  "LICENSE"
   ],
   "scripts": {
     "build": "node scripts/build.js",
