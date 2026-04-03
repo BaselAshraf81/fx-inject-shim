@@ -4,9 +4,9 @@
   "description": "Drop-in Firefox WebExtension shim for tabs/scripting injection APIs deprecated in Firefox 149 and removed in Firefox 152.",
   "main": "src/index.js",
   "exports": {
-    ".":            "./src/index.js",
+    ".": "./src/index.js",
     "./background": "./src/background.js",
-    "./shim":       "./src/shim.js"
+    "./shim": "./src/shim.js"
   },
   "files": [
     "src/",
@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "build": "node scripts/build.js",
-    "test":  "jest --testEnvironment node",
+    "test": "jest --testEnvironment node",
     "prepublishOnly": "npm test && npm run build"
   },
   "keywords": [
@@ -38,10 +38,10 @@
   "bugs": "https://github.com/BaselAshraf81/fx-inject-shim/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BaselAshraf81/fx-inject-shim.git"
+    "url": "git+https://github.com/BaselAshraf81/fx-inject-shim.git"
   },
   "devDependencies": {
-    "jest":   "^29.7.0",
+    "jest": "^29.7.0",
     "terser": "^5.31.0"
   },
   "jest": {
