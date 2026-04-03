@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "fx-inject-shim Demo",
+  "version": "1.0.0",
+  "description": "Demonstrates fx-inject-shim: the popup uses browser.tabs.executeScript with zero call-site changes.",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Highlight Page"
+  },
+  "background": {
+    "scripts": [
+      "vendor/shim-background.js"
+    ]
+  }
+}
