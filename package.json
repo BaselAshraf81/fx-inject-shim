@@ -1,6 +1,6 @@
 {
   "name": "fx-inject-shim",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Drop-in Firefox WebExtension shim for tabs/scripting injection APIs deprecated in Firefox 149 and removed in Firefox 152.",
   "main": "src/index.js",
   "exports": {
